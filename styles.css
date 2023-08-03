@@ -24,6 +24,11 @@ body {
 a:visited {
     color: rgb(63, 217, 42);
   }
-a:hover{
+#boton-falso:hover{
     text-decoration: underline;
+}
+
+.link-button:hover{
+    background-color: red;
+    color: white;
 }
