@@ -1,5 +1,6 @@
 body {
     background-color: lightblue;
+    text-align: center;
 }
 
 .image{
@@ -10,7 +11,7 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: rgb(192, 255, 197);
+    color: rgb(217, 255, 0);
     border: 1px solid gray;
     background-color: #f2f2f2;
     padding: 5px;
@@ -23,6 +24,11 @@ body {
 a:visited {
     color: rgb(109, 29, 109);
   }
-a:hover{
+#boton-falso:hover{
     text-decoration: underline;
+}
+
+.link-button:hover{
+    background-color: red;
+    color: white;
 }
